@@ -1,0 +1,3 @@
+﻿mode,mode_name,emission_factor_gco2e_per_ton_km,unit,source
+road,도로 화물,299.6,gCO2e/ton-km,한국철도공사
+rail,철도 화물,35.9,gCO2e/ton-km,한국철도공사
