@@ -716,7 +716,7 @@ def select_best_freight_stations(
         raise ValueError(
             "출발지와 목적지 주변 화물역 중 "
             "철도로 연결 가능한 조합을 찾지 못했습니다. "
-            "top_n 값을 늘려보세요."
+            
         )
 
     # ---------------------------------------------
@@ -783,7 +783,7 @@ def select_best_freight_stations(
 
         raise ValueError(
             "철도 연결 후보는 존재하지만 "
-            "TMAP First/Last Mile 계산에 모두 실패했습니다."
+            "출발지와 목적지 계산에 모두 실패했습니다."
         )
 
     # ---------------------------------------------

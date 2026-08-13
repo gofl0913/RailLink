@@ -40,8 +40,7 @@ def search_place(keyword: str) -> dict:
 
     if response.status_code != 200:
         raise RuntimeError(
-            f"장소 검색 실패: {response.status_code}\n"
-            f"{response.text}"
+            f"장소 검색 실패 출발지와 목적지를 다시 입력해주세요."
         )
 
     result = response.json()
