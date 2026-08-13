@@ -218,7 +218,7 @@ def get_priority_weights(
 
     else:
         raise ValueError(
-            "우선순위는 1~4 중에서 선택하세요."
+            "운송안 선택 기준을 선택해주세요."
         )
 
 
